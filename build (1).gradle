@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'ao.meugestor.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'ao.meugestor.app'
+        minSdk 23
+        targetSdk 28
+        versionCode 822
+        versionName '8.2.2'
+    }
+}
